@@ -1,42 +1,45 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Crypto Wallet
 
-## Setup
+CryptoWallet is a project that allows you to track and manage your cryptocurrencies. You can register your crypto holdings, and the platform stores all the data securely. It also provides real-time profit/loss calculations based on the data received from the CoinGecko API, giving you insights into your portfolio's performance.
 
-Make sure to install the dependencies:
 
+
+
+
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env
+`SUPABASE_URL`
+`SUPABASE_KEY`
+
+
+
+## Installation
+
+run the following commands
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+  git clone https://link-para-o-projeto
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
-
 ```bash
-npm run dev
+  cd my-project
 ```
 
-## Production
-
-Build the application for production:
-
 ```bash
-npm run build
+  npm install 
+  npm run dev
+
 ```
 
-Locally preview production build:
+## You need to migrate and push the database to Supabase
+    
+## Stacks and Libs used
 
-```bash
-npm run preview
-```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+ Nuxt, Vue, TailwindCSS, Supabase,
+
+
+
